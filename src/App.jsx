@@ -12,7 +12,7 @@ import Settings from "./pages/Settings";
 
 export default function App() {
   return (
-    <>
+    <div className="p-6">
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -28,6 +28,6 @@ export default function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
