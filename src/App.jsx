@@ -8,7 +8,7 @@ import ProductDetail from "./pages/ProductDetail";
 
 export default function App() {
   return (
-    <>
+    <div className="p-6">
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -19,6 +19,6 @@ export default function App() {
           <Route path="/products/:id" element={<ProductDetail />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
